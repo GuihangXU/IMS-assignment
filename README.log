@@ -1,0 +1,24 @@
+This is a brief explaination for python codes:
+
+	abr-1pass.py
+	abr-2pass.py
+	CRF-15to30.py
+	presets.py
+
+Python version 2.7
+------------------------------------------------------------------
+This is python code used the binary ffmpeg file to encode videos.
+The compiled ffmpeg file is that used in IMS Lab.
+
+** Before run this code, please download the binary ffmpeg files
+And place the python codes with in this file /ffmpeg_static_with_VMAF/ffmpeg_static
+
+** Before you run this code, please open xx.py file and change
+the file path to where you place the raw videos.
+And create 2 folders: output_videos & output_logs in this directory!
+
+**If you want to change the CRF, preset and bitrate,
+please open the python codes to change this parameters.
+
+*Run python code in terminal: python xx.py
+------------------------------------------------------------------
